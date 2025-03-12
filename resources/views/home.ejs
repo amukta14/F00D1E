@@ -1,0 +1,66 @@
+<main class="hero">
+  <!-- Hero -->
+  <section>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
+      <div class="absolute top-0 w-full h-full bg-top bg-cover" style="
+          background-image: url('https://i.imgur.com/W0RO8kQ.jpg');
+        ">
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div>
+              <h1 class="text font-semibold text-5xl hero-heading">
+                <span class="text-500 heading-main">F00D1E</span>
+              </h1>
+              <p class="mt-4 text-lg text-300 hero-text">
+                Restaurant delivery app with full admin side order status control. Made by Darahaas as a part of the
+                core project for Devsoc; BITS Goa. Visit the <a class="repo-link" target="_Blank"
+                  href="https://github.com/darahaas15/F00D1E">Repository</a>
+                .
+              </p>
+              <a href="/cart"
+                class="hover:bg-500  font-semibold hover:text-white p-4 border hover:border-transparent rounded inline-block mt-5 cursor-pointer btn-primary">Order
+                now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden underhero"
+        style="height: 70px; transform: translateZ(0px)">
+      </div>
+    </div>
+  </section>
+  <section class="menu container mx-auto py-8">
+    <h1 class="text-xl font-bold mb-8 menu-heading text-center md:hidden pb-4">
+      Menu
+    </h1>
+    <!--Cards-->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-16 gap-y-12" id="menu">
+      <% items.forEach(function(items){ %>
+        <div class="w-full md:w-64">
+          <img class="h-40 mb-4 mx-auto" src="<%= items.image%>" alt="pizza-img">
+          <div class="text-center">
+            <h2 class="mb-4 text-lg">
+              <%=items.name%>
+            </h2>
+            <span class="size py-1 px-4 rounded-full uppercase text-xs">
+              <%=items.size%>
+            </span>
+            <div class="flex items-center justify-around mt-6">
+              <span class="font-bold text-lg">INR <%=items.price%></span>
+              <button data-items="<%= JSON.stringify(items) %>"
+                class="add-cart py-1 px-6 rounded-full flex items-center font-bold">
+                <span class="ml-4">+</span>
+                <span>Add</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <% })%>
+
+
+
+    </div>
+  </section>
