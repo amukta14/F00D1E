@@ -9,9 +9,10 @@ Restaurant delivery app with full admin side order status control.
 - View orders and when they were placed
  <img width="1652" alt="Screenshot 2025-06-09 at 11 15 24 PM" src="https://github.com/user-attachments/assets/d049ed74-ed48-46a1-b56e-5694a982ba04" />
 - Admin side order status updation
- ![image](https://user-images.githubusercontent.com/63366288/130773148-782dade1-6309-4f89-af01-dc816f2b941c.png)
+ <img width="1695" alt="Screenshot 2025-06-09 at 11 18 10 PM" src="https://github.com/user-attachments/assets/371c7fe0-429c-4110-8029-0a17eadf5b41" />
 - Updates are reflected on the customer's side
- ![image](https://user-images.githubusercontent.com/63366288/130773307-3120e106-1808-4ee9-a0a1-c412408e0c0c.png)
+ ![Uploading Screenshot 2025-06-09 at 11.18.51 PM.png…]()
+
 - contains admin and user protected routes
 
 ## Things I learnt while doing this project:
