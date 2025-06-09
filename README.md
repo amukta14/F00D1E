@@ -11,8 +11,7 @@ Restaurant delivery app with full admin side order status control.
 - Admin side order status updation
  <img width="1695" alt="Screenshot 2025-06-09 at 11 18 10 PM" src="https://github.com/user-attachments/assets/371c7fe0-429c-4110-8029-0a17eadf5b41" />
 - Updates are reflected on the customer's side
- ![Uploading Screenshot 2025-06-09 at 11.18.51 PM.png…]()
-
+<img width="1705" alt="Screenshot 2025-06-09 at 11 18 51 PM" src="https://github.com/user-attachments/assets/8e124622-2253-4e76-a6b3-760325caa206" />
 - contains admin and user protected routes
 
 ## Things I learnt while doing this project:
